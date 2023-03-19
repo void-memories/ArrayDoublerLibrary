@@ -1,0 +1,44 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 24 min SDK version: x86",
+    "file_": "/Users/voidmemories/AndroidStudioProjects/NimbleEdgeDemo/DoubleArray/src/main/cpp/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 517456869
+  },
+  {
+    "level_": 0,
+    "message_": "JSON \u0027/Users/voidmemories/AndroidStudioProjects/NimbleEdgeDemo/DoubleArray/.cxx/Debug/324c306n/x86/android_gradle_build.json\u0027 was up-to-date",
+    "file_": "/Users/voidmemories/AndroidStudioProjects/NimbleEdgeDemo/DoubleArray/src/main/cpp/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1137481297
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "/Users/voidmemories/AndroidStudioProjects/NimbleEdgeDemo/DoubleArray/src/main/cpp/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1362867855
+  }
+]
