@@ -1,20 +1,17 @@
-#include "doublearray.h"
+#include "util.h"
 
-extern "C" JNIEXPORT jfloatArray JNICALL
+extern "C"
+JNIEXPORT jfloatArray JNICALL
 Java_com_voidmemories_doublearray_ArrayDoublerImpl_doubleThisArrayNative(
         JNIEnv *env,
         jobject instance, jfloatArray array) {
 
-    jsize len = env->GetArrayLength(array);
-    jfloatArray result = env->NewFloatArray(len);
-    jfloat *arrOut = env->GetFloatArrayElements(array, nullptr);
+    jsize size = env->GetArrayLength(array);
+    jfloat *float_array = env->GetFloatArrayElements(array, nullptr);
 
-    for (jint i = 0; i < len; i++) {
-        arrOut[i] *= 2;
-    }
+    jfloat *doubled_float_array = double_array(float_array, size);
 
-    env->SetFloatArrayRegion(result, 0, len, arrOut);
-    env->ReleaseFloatArrayElements(array, arrOut, 0);
+    env->ReleaseFloatArrayElements(array, doubled_float_array, 0);
 
-    return result;
+    return array;
 }
